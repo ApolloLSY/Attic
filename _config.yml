@@ -73,18 +73,29 @@ footer-text: Copyright (c) 2019 来自Siyuan Li
 #
 
 # 输入Disqus shortname，即可添加评论区，请查阅文档，设置自己的disqus站点，不要继续使用我的站点loffer
-disqus: loffer #shortname
+#disqus: loffer #shortname
 
 # 输入Gitalk相关设定，即可添加评论区，具体请看教程
 gitalk:
-  clientID: 
-  clientSecret: 
-  repo: 
-  owner: 
-  proxy:
+  clientID: e8cf175850b6f93d63c7
+  clientSecret: c0ed03177aa95928f9e4abfa7bdf0bcd4fa1b8fb
+  repo: Attic
+  owner: ApolloLSY
+  proxy: 127.0.0.1
 
 # 输入Google Analytics web tracking code
-google_analytics:
+google_analytics: G-2E5Q8F4NV8
+
+#以下是此账号的 Google 代码。请将该代码复制并粘贴到您网站上每个网页的代码中，紧跟在 <head> 元素之后。每个网页只能添加一个 Google 代码。
+#<!-- Google tag (gtag.js) -->
+#<script async src="https://www.googletagmanager.com/gtag/js?id=G-2E5Q8F4NV8"></script>
+#<script>
+#  window.dataLayer = window.dataLayer || [];
+#  function gtag(){dataLayer.push(arguments);}
+#  gtag('js', new Date());
+
+#  gtag('config', 'G-2E5Q8F4NV8');
+#</script>
 
 utteranc:
   repo: # Your github repo path, also see: https://utteranc.es
