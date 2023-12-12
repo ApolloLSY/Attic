@@ -8,8 +8,11 @@ tags: [R, notes]
 comments: true
 --- 
 # 1GDC数据获取
+
 ## 1.1数据下载
+
 ### 1.1.1安装gdc client
+
 以及准备好库和目录
 
     
@@ -21,13 +24,16 @@ comments: true
       dir()
     
 ### 1.1.2在gdc网站下载数据文件
+
 case-file-manifest
 3terminal启动gdc-client
     
     #在terminl运行以下
       #./gdc-client download -m filename.txt -d clinical
       #./gdc-client download -m filename.txt -d expdata
+      
 ## 1.2临床信息数据整理
+
 0单个文件读取整理（省略
 
 1批量读取
