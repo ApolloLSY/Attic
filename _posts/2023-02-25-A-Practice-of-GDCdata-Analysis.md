@@ -12,14 +12,14 @@ comments: true
 ### 1.1.1安装gdc client
 以及准备好库和目录
 
-    if(FALSE){
+    
       options(stringsAsFactors = F)
       library(stringr)
       cancer_type="TCGA-CHOL"
       if(!dir.exists("clinical"))dir.create("clinical")
       if(!dir.exists("expdata"))dir.create("expdata")
       dir()
-    }
+    
 ### 1.1.2在gdc网站下载数据文件
 case-file-manifest
 3terminal启动gdc-client
@@ -33,13 +33,12 @@ case-file-manifest
 1批量读取
     
     #批量读取clinical下 不分文件层级 *任意文件名 $以xml结尾的文件
-    if(FALSE){
+   
       xmls=dir("clinical/",pattern = "*.xml$",recursive = T)
-    }
+    
 2写个函数用于批量整理
     
-    if(FALSE)
-    {
+    
       td=function(x){
       #读取xml文件
       result=xmlParse(file.path("clinical/",x))
@@ -49,20 +48,20 @@ case-file-manifest
       resultdataframe=xmlToDataFrame(noderoot[2])
       #把行转置成列
       return(t(resultdataframe))
-    }
+    
     }
 3批量整理
     
-    if(FALSE){
+    
       #处理 成一个列表
     cl=lapply(xmls,td)
     #列表化为一列是一个病人记录的矩阵,再转置成一行一条记录的矩阵,再转成数据框
     cl_df=data.frame(t(do.call(cbind,cl)))
-    }
+    
 ## 1.3expdata数据整理
 同上原理,代码类似
     
-    if(FALSE){
+    
       exps=dir("expdata/",pattern = "*.htseq.counts.gz$",recursive = T)
       ex=function(x){
          #第一列作为行名,以tab键作为分隔符号
@@ -70,13 +69,13 @@ case-file-manifest
       return(result)}
       exp=lapply(exps, ex)
       exp<-do.call(cbind,exp)
-    }
+    
 这时候我们发现exp数据框是没有列名的 没有列名就意味着临床数据文件和expdata对应不了
 
 ## 1.4数据对应
 GDC网站上加购所有数据 然后下载metadata 得到一个json文件
     
-    if(FALSE){
+    
       meta=jsonlite::fromJSON("filename")
       ids=meta$associated
       ID=sapply(ids,function(x){x[,1]})
@@ -88,29 +87,28 @@ GDC网站上加购所有数据 然后下载metadata 得到一个json文件
         stringr::str_split(exps,"/",simplify=T)[,2]
       file2id = file2id[match(exps2,file2id$file_name),]
       colnames(exp) = file2id$ID
-    }
+    
 ## 1.5去除样本表达量过低的基因
-    if(FALSE){
+    
       exp=exp[apply(exp,1,function(x) sum(x>1)>9),]
       #9是自定义的 由于一共有45个样本 所以自定义要20%以上表达才保留
-    }
+    
 # 2差异分析
 ## 2.1预处理
 TCGA1415位代表了是否是肿瘤 <10 tumor >=10 normal
     
-    if(FALSE){
+    
       table(str_sub(colnames(exp),14,15))
       group_list = ifelse(as.numeric(str_sub(colnames(exp),14,15)) < 10,'tumor' , 'normal')
       group_list = factor(group_list,levels =c("normal","tumor"))
       table(group_list)
       save(exp,clinical,group_list,cancer_type,
            file=paste0(cancer_type,"gdc.Rdata"))
-    }
+    
 ## 2.2limma/edgeR/DESeq2
 分析的部分本来有一百多行的代码和笔记 Rstudio出问题了全没了 气得。。 不想补了 找了XJ Sun放在GitHub上的代码当作替代
 
-    if(F)
-    {
+    
       ##' get_deg
     ##'
     ##' do differential analysis according to expression set and group information
@@ -205,16 +203,16 @@ TCGA1415位代表了是否是肿瘤 <10 tumor >=10 normal
       }
       return(deg)
     }
-    }
+    
 # 3生存分析
 ## 3.1KaplanMeier
 KM生存分析是描述性的
     
-    if(FALSE){
+    
       #描述性生存分析
       sfit<-survfit(Surv(time, event)~gender, data=meta)
       #time总生存期 event终结事件 #gender是分组依据 meta是临床数据
-    }
+    
 ## 3.2Cox回归
 Cox回归是回归模型,没有直接使用生存时间,而是使用了风险比(hazardratio)作为因变量。该模型不用于估计生存率,而是用于因素分析,也就是找到某一个危险因素对结局事件发生的贡献度。
 风险比 (hazard ratio)
@@ -225,16 +223,16 @@ Cox回归是回归模型,没有直接使用生存时间,而是使用了风险比
 log-rank和cox都可以给每个基因计算一个p值,计算其对生存的影响
 
 ### 3.2.1前期准备
-    if(FALSE){
+    
       knitr::opts_chunk$set(collapse = TRUE,
                             comment ="#>")
       knitr::opts_chunk$set(fig.width = 6,fig.height =6,collapse = TRUE)
       knitr::opts_chunk$set(message = FALSE)
       
       
-    }
+    
 ### 3.2.2整理数据
-    if(FALSE){
+    
       rm(list=Is(0))
       options(stringsAsFactors = F)
       Load("TCGA-CHOLgdc,Rdata")
@@ -263,11 +261,11 @@ log-rank和cox都可以给每个基因计算一个p值,计算其对生存的影�
       meta=meta[match(str_sub(colnames(exprSet),1,12),meta$ID),]
       all(meta$ID==str_sub(colnames(exprSet),1,12))
                 
-    }
+    
 ### 3.2.3整理生存分析的输入数据
 由随访时间和死亡时间计算生存时间(月)
 
-    if(FALSE){
+    
       is.empty.chr = function(x){
         ifelse(stringr::str_length(x)==0,T,F)}
       is.empty.chr(meta[1,4])
@@ -305,10 +303,10 @@ race
       table(meta$race)
       save(meta,exprSet,cancer_type,
            file =paste0(cancer_type,"sur_model.Rdata"))
-    }
+    
 ## 3.3绘图
 ### 3.3.1生存分析绘图
-    if(FALSE){
+    
       rm(list = Is())
     Load("TCGA-CHOLsur_model.Rdata")
     library(survival)
@@ -344,9 +342,9 @@ race
     arrange_ggsurvplots(splots,print = TRUE,ncol = 2,nrow = 2,risk.table.height = 0.4
     )
       
-    }
+    
 ### 3.3.2Logrank批量生存分析
-    if(FALSE){
+   
       
     logrankfile = paste(cancer_type,"log_rank_p.Rdata")
     if(!file.exists(logrankfile)){
@@ -365,9 +363,9 @@ race
     load(logrankfile)
     table(log_rank_p<0.01)
     table(log_rank_p<0.05)
-    }
+    
 ### 3.3.3COX生存分析批量绘图
-    if(FALSE){
+   
       
     coxfile = paste0(cancer_type,"cox.Rdata")
     if(!file.exists(coxfile)){
@@ -414,4 +412,4 @@ race
     Ir = names(log_rank_p)[log_rank_p<0.01]
     cox = rownames(cox_results)[cox_results[,4]<0.01]
     length(intersect(lr,cox))
-    }
+    
