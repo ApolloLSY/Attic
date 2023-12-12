@@ -8,7 +8,7 @@
 
 # 描述/签名
 name: Siyuan Li
-description: It's raining. 
+description: Vago Mundo. 
 
 # 输入你的网站域名（如果你没有添加自己的域名，而是直接用GitHub pages分配的域名的话可以省略）
 url: 
@@ -54,14 +54,14 @@ footer-links:
   email: lsy111@sjtu.edu.com
   facebook: #https://www.facebook.com/<>
   flickr: #https://www.flickr.com/<>
-  github: ApolloLSY #https://github.com/<>
+  github:  https://github.com/ApolloLSY
   instagram: #https://instagram.com/<>
   linkedin: #https://www.linkedin.com/in/<>
   pinterest: #https://www.pinterest.com/<>
   rss: #随便填点啥RSS就能用了
   stackoverflow: # http://stackoverflow.com/<>
   tumblr: # https://<username>.tumblr.com
-  twitter: # https://www.twitter.com/SYLi77534937
+  twitter: https://www.twitter.com/SYLi77534937
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # 站点页脚的文字
