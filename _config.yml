@@ -31,13 +31,13 @@ favicon: https://s2.loli.net/2023/09/04/mVRZ8IFg4aCqXe2.png
 
 # 菜单中的按钮
 navigation:
-  - name: 首页
+  - name: HOME
     url: /LSY
-  - name: 时间轴
+  - name:TimeLine
     url: /Timeline
-  - name: 归档
+  - name: Arxiv
     url: /archive
-  - name: 标签
+  - name: Tags
     url: /tags
 
 # 每页的文章数
@@ -54,14 +54,14 @@ footer-links:
   email: lsy111@sjtu.edu.com
   facebook: #https://www.facebook.com/<>
   flickr: #https://www.flickr.com/<>
-  github: FromEndWorld/loffer #https://github.com/<>
+  github: ApolloLSY #https://github.com/<>
   instagram: #https://instagram.com/<>
   linkedin: #https://www.linkedin.com/in/<>
   pinterest: #https://www.pinterest.com/<>
   rss: #随便填点啥RSS就能用了
   stackoverflow: # http://stackoverflow.com/<>
   tumblr: # https://<username>.tumblr.com
-  twitter: # https://www.twitter.com/<your_twitter_username> 
+  twitter: # https://www.twitter.com/SYLi77534937
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # 站点页脚的文字
