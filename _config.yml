@@ -33,7 +33,7 @@ favicon: https://s2.loli.net/2023/09/04/mVRZ8IFg4aCqXe2.png
 navigation:
   - name: HOME
     url: /LSY
-  - name:TimeLine
+  - name: TimeLine
     url: /Timeline
   - name: Arxiv
     url: /archive
