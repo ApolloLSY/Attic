@@ -32,7 +32,7 @@ favicon: https://s2.loli.net/2023/09/04/mVRZ8IFg4aCqXe2.png
 # 菜单中的按钮
 navigation:
   - name: HOME
-    url: /about.md
+    url: /tags/about.md
   - name: TimeLine
     url: /Timeline
   - name: Arxiv
