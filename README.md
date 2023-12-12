@@ -1,10 +1,14 @@
-LOFFER是个可以帮助你get off from LOFTER的软件（我知道这个pun很烂）。
-
 这是一个可以发布在GitHub的Jekyll博客，你不需要编写代码或使用命令行即可获得一个部署在GitHub的博客。
 
 现在我将此文档和基础教程分开了，此文档用于说明LOFFER的现有功能和更新情况，**查看为无任何代码基础者写的教程[请点这里](https://fromendworld.github.io/LOFFER/document/)**
 
 ## 更新内容
+
+### 2023-12-12
+一些常见出错的点：
+1.post内文件没有加md后缀
+2.post内文件head部分忘写了
+3._config.yml文件修改功能名漏了空格
 
 ### 2019-07-25 V0.4.0
 
@@ -40,7 +44,6 @@ LOFFER的默认状态是teal，要更换主题颜色，只要打开文件` _sass
 
 如果你已经fork了LOFFER，想要更新到新版本的话，可以试试[这个方法](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser)，或者你也可以干脆删掉重来，只要保留自己的大部分config设定和所有的post就好。
 
-LOFFER只是容器，你的posts才是博客的核心。
 
 ## 支持的功能
 
@@ -70,15 +73,3 @@ LOFFER只是容器，你的posts才是博客的核心。
 * [Jekyll](https://github.com/jekyll/jekyll) - 这是本站存在的根基
 * [Kiko-now](<https://github.com/aweekj/kiko-now>) - 我首先是fork这个主题，然后再其上进行修改汉化，才有了LOFFER
 * [Font Awesome](<https://fontawesome.com/>) - 社交网络图标来自FontAwesome的免费开源内容
-
-
-
-## 帮助这个项目
-
-介绍更多人来使用它，摆脱lofter自由飞翔！
-
-欢迎Issues和Pull Requests。
-
-给我点一个☆吧！
-
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/givemefive.png)
