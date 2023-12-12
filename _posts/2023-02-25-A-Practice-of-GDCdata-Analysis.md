@@ -29,6 +29,7 @@ case-file-manifest
       #./gdc-client download -m filename.txt -d expdata
 ## 1.2临床信息数据整理
 0单个文件读取整理（省略
+
 1批量读取
     
     #批量读取clinical下 不分文件层级 *任意文件名 $以xml结尾的文件
