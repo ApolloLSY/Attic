@@ -2,10 +2,10 @@
 layout: post
 title: C++ Primer|Chapter 1
 date: 2021-09-02
-Author: 小猫猫
+Author: Siyuan Li
 categories: 
 toc: true
-tags: [sample, document]
+tags: [C++, notes]
 comments: true
 --- 
 
