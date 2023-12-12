@@ -3,7 +3,6 @@ layout: post
 title: C++ Primer|Chapter 1
 date: 2021-09-02
 Author: Siyuan Li
-categories: 
 toc: true
 tags: [C++, notes]
 comments: true
