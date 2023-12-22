@@ -1,0 +1,25 @@
+img {
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+img::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  bottom: 100%; /* 放置在照片上方 */
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap; /* 防止文本换行 */
+  opacity: 0;
+  pointer-events: none; /* 避免tooltip阻挡其他元素 */
+  transition: opacity 0.3s ease;
+}
+
+img:hover::after {
+  opacity: 1;
+}
