@@ -23,3 +23,7 @@ img::after {
 img:hover::after {
   opacity: 1;
 }
+
+
+另外一处更改宽度：参考
+https://www.zackwu.com/posts/2018-04-23-jekyll-and-github-pages/
