@@ -2,7 +2,7 @@
 layout: post
 title: 是是非非：批判名著的“三观”，大可不必
 date: 2022-07-18
-Author: LSY
+Author: 李思缘
 toc: true
 tags: [随笔]
 comments: true
