@@ -6,13 +6,14 @@ tags: [latex, cheatsheet]
 comments: true
 ---
 
-[更多细节查询此网站]（http://www.uinio.com/Math/LaTex） 
+[更多细节查询此网站](http://www.uinio.com/Math/LaTex)。
+
+<!-- more -->
 
 公式块上下使用`$$`标明，内联公式则用`$`。
 
-不要让公式出现在文章摘要里。（Jekyll的默认文章摘要是第一段。手动摘要分割线，默认为`<!-- more -->`，并且有首页摘要的字符数限制。
+不要让公式出现在文章摘要里。（Jekyll的默认文章首页摘要是第一段。手动摘要分割线是`<!-- more -->`，并且有摘要的字符数限制。）
 
-<!-- more -->
 
 Block math test
 
