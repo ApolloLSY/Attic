@@ -1,8 +1,8 @@
 ---
 layout: post
 title: LaTex备忘用例
-date: 2019-07-24
-tags: [latex, notes]
+date: 2020-07-24
+tags: [latex, cheatsheet]
 comments: true
 ---
 公式块上下使用`$$`标明，内联公式则用`$`。
