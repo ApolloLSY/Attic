@@ -2,7 +2,7 @@
 layout: post
 title: Markdown Memo
 date: 2020-07-24 
-tags: [markdown,memo]
+tags: [markdown,cheatsheet]
 comments: true
 toc: true
 ---
