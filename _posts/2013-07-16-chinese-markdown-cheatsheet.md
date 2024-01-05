@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Markdown语法简介
-date: 2013-07-16 
-tags: [notes, markdown]
+title: Markdown Memo
+date: 2020-07-24 
+tags: [markdown,memo]
 comments: true
 toc: true
 ---
 
 
-[Markdown语法的完整文档在这里](http://daringfireball.net/projects/markdown/syntax)。
+[Markdown语法的完整文档](http://daringfireball.net/projects/markdown/syntax)。
 
 ## 分段与分行
 
