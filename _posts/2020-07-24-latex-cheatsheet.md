@@ -6,7 +6,7 @@ tags: [latex, cheatsheet]
 comments: true
 ---
 
-[更多细节查询此网站]（http://www.uinio.com/Math/LaTex）
+[更多细节查询此网站]（http://www.uinio.com/Math/LaTex） 
 
 公式块上下使用`$$`标明，内联公式则用`$`。
 
