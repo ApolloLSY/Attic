@@ -1,6 +1,6 @@
 ---
 layout: post
-title: R analysis for GDC data
+title: 经验/直觉如何抵达真理
 date: 2023-02-25
 Author: Siyuan Li
 toc: true
