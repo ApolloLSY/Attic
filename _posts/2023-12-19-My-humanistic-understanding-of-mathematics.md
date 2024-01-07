@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 经验/直觉如何抵达真理
-date: 2023-02-25
+date: 2023-12-29
 Author: Siyuan Li
 toc: true
-tags: [R, notes]
+tags: [math, essay]
 comments: true
 --- 
 我对数学的人文理解以及喜欢它的原因是，数学可以拓展人类的直觉。
