@@ -1,1 +1,16 @@
-2023-02-25-A-Practice-of-GDCdata-Analysis.md
+---
+layout: post
+title: R analysis for GDC data
+date: 2023-02-25
+Author: Siyuan Li
+toc: true
+tags: [R, notes]
+comments: true
+--- 
+我对数学的人文理解以及喜欢它的原因是，数学可以拓展人类的直觉。
+
+可以说数学由直觉和符号逻辑构成，直觉是它内容的种子，符号逻辑赋予它内在生长性。初级的数学还在个人直觉之内，但通过符号逻辑，人可以构建出极坚实的超出人类原有直觉的东西。我们继而可以认领它，把新的东西纳入直觉。然后我们继续用经过拓展的“直觉”去探索生发出更远的东西。
+
+人类作为一个文明对世界本质理解的“进化”，就是在这种迭代中发生的。
+
+to be continued
