@@ -3,7 +3,7 @@ layout: post
 title: 分析狂热与直觉荒凉
 date: 2024-01-23
 Author: Siyuan Li
-toc: true
+toc: false
 tags: [essay]
 comments: true
 --- 
