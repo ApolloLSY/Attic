@@ -15,3 +15,8 @@ This article will carve out a place in history. Time will prove it.
 标题里的君是哪个“君”？
 
 徐君也，亦是陈君也。
+
+
+
+
+最后，如果说这篇文章的欠缺之处，可能是缺少一点中文的音韵美，不过“浪翁水乐无宫徵，自是云山韶頀音”，清新质朴自传响。
