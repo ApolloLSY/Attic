@@ -12,10 +12,6 @@ url:
 baseurl: /Attic
 
 
-#
-# 下面的设定都是可选的
-#
-
 # 你的博客logo图片URL，建议尺寸不超过300px × 300px
 avatar: https://github.com/ApolloLSY/Attic/blob/master/images/Photo3.png?raw=true
 
