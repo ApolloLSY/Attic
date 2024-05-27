@@ -37,8 +37,8 @@ excerpt_separator: <!-- more -->
 
 # 你的社交网络链接，它们会作为图标出现在你的网站页脚中，可选填写
 footer-links: 
-  Google Scholar:  https://scholar.google.com/citations?user=oHmVs-wAAAAJ&hl=zh-CN/<>
-  ORCID: https://orcid.org/my-orcid?orcid=0009-0000-9254-7115/<>
+  scholar:  https://scholar.google.com/citations?user=oHmVs-wAAAAJ&hl=zh-CN/<>
+  orcid: https://orcid.org/my-orcid?orcid=0009-0000-9254-7115/<>
   dribbble: # https://dribbble.com/<>
   email: lsy688764@gmail.com
   facebook: #https://www.facebook.com/<>
