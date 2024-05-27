@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 分析狂热与直觉荒凉
+title: 分析与印象
 date: 2024-01-23
 Author: Siyuan Li
 toc: false
