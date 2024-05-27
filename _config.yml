@@ -37,20 +37,20 @@ excerpt_separator: <!-- more -->
 
 # 你的社交网络链接，它们会作为图标出现在你的网站页脚中，可选填写
 footer-links: 
-  scholar:  https://scholar.google.com/citations?user=oHmVs-wAAAAJ&hl=zh-CN/<>
-  orcid: https://orcid.org/my-orcid?orcid=0009-0000-9254-7115/<>
+  scholar:  citations?user=oHmVs-wAAAAJ&hl=zh-CN/<>
+  orcid: my-orcid?orcid=0009-0000-9254-7115/<>
   dribbble: # https://dribbble.com/<>
   email: lsy688764@gmail.com
   facebook: #https://www.facebook.com/<>
   flickr: #https://www.flickr.com/<>
-  github:  https://github.com/ApolloLSY/<>
+  github:  ApolloLSY/<>
   instagram: #https://instagram.com/<>
-  linkedin: https://www.linkedin.com/in/siyuan-li-984623294/<>
+  linkedin: siyuan-li-984623294/<>
   pinterest: #https://www.pinterest.com/<>
   rss: #随便填点啥RSS就能用了
   stackoverflow: # http://stackoverflow.com/<>
   tumblr: # https://<username>.tumblr.com
-  twitter: https://www.twitter.com/SYLi77534937/<>
+  twitter: SYLi77534937/<>
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # 站点页脚的文字
