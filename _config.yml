@@ -1,6 +1,6 @@
 
 # 描述/签名
-name: Siyuan Li
+name: Siyuan Li <br> 李思缘
 description: Per aspera ad astra. <br> 神交千载，心游万仞。
 
 # 输入你的网站域名（如果你没有添加自己的域名，而是直接用GitHub pages分配的域名的话可以省略）
@@ -13,7 +13,7 @@ baseurl: /Attic
 
 
 # 你的博客logo图片URL，建议尺寸不超过300px × 300px
-avatar: https://github.com/ApolloLSY/Attic/blob/master/images/Photo3.png?raw=true
+avatar: https://github.com/ApolloLSY/Attic/blob/master/images/Photo7.png?raw=true
 
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
 favicon: https://s2.loli.net/2023/09/04/mVRZ8IFg4aCqXe2.png
