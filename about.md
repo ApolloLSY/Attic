@@ -8,4 +8,4 @@ Hello! I’m Siyuan Li, an undergraduate at Shanghai Jiao Tong University, doubl
 
 I am fortunate to be advised by [Prof. Jinjun Ran](https://scholar.google.com/citations?user=VjVQi2IAAAAJ&hl=zh-CN) from [School of Medicine](https://www.shsmu.edu.cn/sph/index.htm), Shanghai Jiao Tong University. I was honored to work as a research assistant (RA) in the [Gladyshev lab](https://gladyshevlab.bwh.harvard.edu/) from [Harvard Medical School](https://hms.harvard.edu/).
 
-### [My CV](https://github.com/ApolloLSY/Attic/files/cvOnepage240707.pdf)
+### [My CV](https://github.com/ApolloLSY/Attic/blob/master/files/cvOnepage240707.pdf)
