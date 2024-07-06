@@ -10,7 +10,7 @@ I am honored to be advised by [Prof. Jinjun Ran](https://scholar.google.com/cita
 
 <h3><a href="https://drive.google.com/file/d/12ItCSLegxhgdNpkH-K6VlXpqaINbt2uN/preview" target="_blank">My CV (PDF)</a></h3>
 
-<p style="color: #d3d3d3;">I love journaling and writing. I'll be dropping some of my essays, notes, research updates, and snippets of life here. Wish you a great day :)</p>
+<p style="color: #d3d3d3;">I love journaling and writing. I'll be dropping some of my essays, notes, research updates, and snippets of life here. Have a great day! :)</p>
 
 
 
