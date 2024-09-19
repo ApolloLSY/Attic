@@ -8,7 +8,7 @@ Hello! I’m an undergraduate at [Shanghai Jiao Tong University](https://www.sjt
 
 I am honored to be advised by [Prof. Jinjun Ran](https://scholar.google.com/citations?user=VjVQi2IAAAAJ&hl=zh-CN) from [Shanghai Jiao Tong University School of Medicine](https://www.shsmu.edu.cn/sph/index.htm), And I was fortunate to work as a research assistant (RA) in the [Gladyshev lab](https://gladyshevlab.bwh.harvard.edu/) from [Harvard Medical School](https://hms.harvard.edu/).
 
-<h3><a href="https://drive.google.com/file/d/12ItCSLegxhgdNpkH-K6VlXpqaINbt2uN/preview" target="_blank">My CV (PDF)</a></h3>
+<h3><a href="https://drive.google.com/file/d/12ItCSLegxhgdNpkH-K6VlXpqaINbt2uN/preview" target="_blank">My CV</a></h3>
 
 <p style="color: #d3d3d3;">I love writing blogs. I'll be dropping some of my essays, notes, research updates, and snippets of life here. Have a great day! :)</p>
 
