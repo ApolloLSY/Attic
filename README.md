@@ -1,8 +1,4 @@
-这是一个可以发布在GitHub的Jekyll博客，你不需要编写代码或使用命令行即可获得一个部署在GitHub的博客。
 
-现在我将此文档和基础教程分开了，此文档用于说明LOFFER的现有功能和更新情况，**查看为无任何代码基础者写的教程[请点这里](https://fromendworld.github.io/LOFFER/document/)**
-
-## 更新内容
 
 ### 2023-12-12
 一些常见出错的点：
@@ -36,45 +32,7 @@ LOFFER的默认状态是teal，要更换主题颜色，只要打开文件` _sass
 
 目录基于[jekyll-toc by allejo](https://github.com/allejo/jekyll-toc)制作。
 
-目前我试用发现了一点小问题：如果你的标题级数不按套路变化，它就会搞不懂…… 
-
-` # 一级标题 `下面必须是` ## 二级标题 `，如果是` ### 三级标题 `它就人工智障了【手动扶额】
-
-注意：目前目录仅在桌面版显示。
-
 
 ### 2019-06-30 V0.2.0
 
 新版本进一步优化了一下样式，并且支持了基于GitHub Issues的评论Gitalk（请看下文的配置说明）。
-
-如果你已经fork了LOFFER，想要更新到新版本的话，可以试试[这个方法](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser)，或者你也可以干脆删掉重来，只要保留自己的大部分config设定和所有的post就好。
-
-
-## 支持的功能
-
-使用Markdown文档在_post文件夹中发布博文，现有功能包括显示作者、置顶博文、添加目录。
-
-博文YAML举例：
-
-    ---
-    layout: post
-    title: Markdown语法简介
-    date: 2013-07-16
-    Author: Shengbin 
-    tags: [sample, markdown]
-    comments: true
-    toc: true
-    ---
-
-按照标签和日期查看博文归档。请查看/tags 和/archive 页面。
-
-链接博客主的社交媒体。请在_config.yml中填写。
-
-支持Disqus和Gitalk两种评论区。请在_config.yml中设置。
-
-
-## 致谢
-
-* [Jekyll](https://github.com/jekyll/jekyll) - 这是本站存在的根基
-* [Kiko-now](<https://github.com/aweekj/kiko-now>) - 我首先是fork这个主题，然后再其上进行修改汉化，才有了LOFFER
-* [Font Awesome](<https://fontawesome.com/>) - 社交网络图标来自FontAwesome的免费开源内容
